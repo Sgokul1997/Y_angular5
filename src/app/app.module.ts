@@ -14,6 +14,9 @@ import { RegisterService  } from './register/register.service';
 import { RegisterComponent } from './register/register.component';
 import { AlarmComponent } from './alarm/alarm.component';
 import { AlarmService } from './alarm/alarm.service';
+import { AlertComponent } from './alert/alert.component';
+import { AlertService  } from './alert/alert.service';
+
 
 @NgModule({
   declarations: [
@@ -21,6 +24,8 @@ import { AlarmService } from './alarm/alarm.service';
     SessionComponent,
     RegisterComponent,
     AlarmComponent,
+    AlertComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -37,6 +42,7 @@ import { AlarmService } from './alarm/alarm.service';
   SessionService,
   RegisterService,
   AlarmService,
+  AlertService,
   
   ],
   bootstrap: [AppComponent]
